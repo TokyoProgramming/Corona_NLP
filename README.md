@@ -11,24 +11,25 @@
 
 ## About the project
 
-This is the project which will use Kaggle data which is about corona virus text on twitter. As you can check the data strucutre below, the data are twitter text and label (Extremely Negative, Negative, Neutral, Positive, Extremely Positive).  <br />
+This project will use Kaggle data which is about corona virus text on twitter. As you can check the data strucutre below, the data are twitter text and label (Extremely Negative, Negative, Neutral, Positive, Extremely Positive).  <br />
 Let's see the example of this project ( this will easy to get the purpose of the project). <br />
 
 ```
 classifier.predict('I hate corona virus')
 ```
-the result is 
+
 ```
-('Extremely Negative', tensor(0) <br />
+# result 
+('Extremely Negative', tensor(0) 
 tensor([9.9935e-01, 9.4686e-09, 6.4548e-04, 5.4781e-08, 1.1805e-07]))
 ```
 
 ```
 classifier.predict('Our life style has been changed a lot due to the covid-19')
 ```
-the result is
 
 ```
+# result
 ('Neutral', tensor(3), tensor([0.0082, 0.0067, 0.0128, 0.9482, 0.0240]))
 ```
 
