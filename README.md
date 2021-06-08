@@ -50,6 +50,7 @@ Twitter text data with label <br />
 
 <div align="center">
 
+
 <table>
   
 
@@ -82,10 +83,11 @@ Project is created with:
     - ###### convert & to and 
     - ###### Remove Unicode Characters 
     - ###### how to deal with #texts
+    - ###### get rid of URL from text
 
-- #### traiing the model
+- #### traing the model
 
-## result 78.9% accuracy
+## result 
  - confusion_matrix
    
     |                     | Extremely Negative  |  Negative | Neutral | Positive |  Extremely Positive | 
@@ -96,5 +98,15 @@ Project is created with:
     | Positive             | 5    |  240 | 202  | 2792 | 251 |
     | Extremely Positive   | 1    |  12  | 10   | 422  | 1544|
 
+## conclusion - 78.9% accuracy
+this is the result of test data, we got 78.9 % accuracy. <br />
+what do you think of the result. 
+You might would like to get over 90 % accuracy, but come to think of the data.
+There are big difference between Extremely Negative and Extremely Positive, but among Negative, Neutral and Positive will really difficult to give them the labels. So if you try to  judge the text is whether Positive or Negative, it is easy to get over 90 % accuracy model.
+
+
+
 ## Reference
+
+data : https://www.kaggle.com/datatattle/covid-19-nlp-text-classification
 
