@@ -43,14 +43,16 @@ The model will classify the text which is relative to Covid-19.
 
 - **data strucutre** <br/>
 
-<div align="center">
-
-<table>
-  
 Twitter text data with label <br />
 - total data = 41157
 - train data = 28809
 - test  data = 12348
+
+<div align="center">
+
+<table>
+  
+
 
 ||  OriginalTweet  |  Sentiment  |
 |----| ---- | ---- |
