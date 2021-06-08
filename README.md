@@ -75,17 +75,28 @@ Project is created with:
 ## Project table
 
 - #### set up firstai
-- #### clearning data
+- #### cleaning data
     - ###### convert & to and 
     - ###### Remove Unicode Characters 
     - ###### how to deal with #texts
 
 - #### traiing the model
-- 
+
 ## result
 
+
+    - confusion_matrix
+   
+
+
+    |                     | Extremely Negative  |  Negative | Neutral | Positive |  Extremely Positive | 
+    | :------------ |:---------------:| -----:|:------------ |:---------------:| -----:|
+    | Extrememly  Negative | 1068 | 470  | 8    | 25   | 1   |
+    | Negative             | 206  | 2343 | 134  | 312  | 10  |
+    | Neutral              | 3    |  121 | 1992 | 171  | 5   |
+    | Positive             | 5    |  240 | 202  | 2792 | 251 |
+    | Extremely Positive   | 1    |  12  | 10   | 422  | 1544|
 
 
 
 ## Reference
-
