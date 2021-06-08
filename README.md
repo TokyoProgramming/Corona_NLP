@@ -11,9 +11,33 @@
 
 ## About the project
 
-This is the project which will create DAG(Directed Acyclic graph) automatically by using path analysis and hill climbing algorhimn<br/>
-As you know, these days Bayesian network became pretty common way to create DAG, such as using bnlearn library, however this method will give u back multiple models.
-The more data is larger, the more dag will be powerful tool to visualize data causality.
+This is the project which will use Kaggle data which is about corona virus text on twitter. As you can check the data strucutre below, the data are twitter text and label (Extremely Negative, Negative, Neutral, Positive, Extremely Positive).  <br />
+Let's see the example of this project ( this will easy to get the purpose of the project). <br />
+
+```
+classifier.predict('I hate corona virus')
+```
+the result is 
+```
+('Extremely Negative', tensor(0) <br />
+tensor([9.9935e-01, 9.4686e-09, 6.4548e-04, 5.4781e-08, 1.1805e-07]))
+```
+
+```
+classifier.predict('Our life style has been changed a lot due to the covid-19')
+```
+the result is
+
+```
+('Neutral', tensor(3), tensor([0.0082, 0.0067, 0.0128, 0.9482, 0.0240]))
+```
+
+
+Those results seems correct !!
+
+
+
+
 
 - **what is dag** <br/>
   DAG is part of the graph theory and is a directed graph with no directed cycles. 
