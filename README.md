@@ -1,4 +1,3 @@
-# Corona_NLP
 <p align="center">
-    # Corona_NLP
+    <h1>Corona_NLP</h1>
 </p>
