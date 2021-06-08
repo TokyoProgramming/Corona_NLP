@@ -41,14 +41,13 @@ The model will classify the text which is relative to Covid-19.
 
 
 
-- **data strucutre** <br/>
+- **data strucutre - Twitter text data with label  **<br/>
 
 <div align="center">
 
 <table>
   
-Twitter text data with label  
-  
+
 
   
 ||  OriginalTweet  |  Sentiment  |
