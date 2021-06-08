@@ -49,7 +49,7 @@ The model will classify the text which is relative to Covid-19.
   
 Twitter text data with label  
   
-knitr::kable(top_gap, caption = "The first 6 rows of the dataset, gapminder")
+
   
 ||  OriginalTweet  |  Sentiment  |
 |----| ---- | ---- |
