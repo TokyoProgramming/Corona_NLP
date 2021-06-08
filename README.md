@@ -48,9 +48,10 @@ The model will classify the text which is relative to Covid-19.
 <table>
   
 Twitter text data with label <br />
+- total data = 41157
+- train data = 28809
+- test  data = 12348
 
-knitr::kable(top_gap,caption = "The first 6 rows of the dataset, gapminder")
-  
 ||  OriginalTweet  |  Sentiment  |
 |----| ---- | ---- |
 |0|  @MeNyrbie @Phil_Gahan @Chrisitv https://t.co/iFz9FAn2Pa and https://t.co/xX6ghGFzCC and https://t.co/I2NlzdxNo8 |  Neutral  | 
@@ -82,20 +83,16 @@ Project is created with:
 
 - #### traiing the model
 
-## result
-
-
-   - confusion_matrix
+## result 78.9% accuracy
+ - confusion_matrix
    
-
-
-|                    | Extremely Negative | Negative | Neutral | Positive | Extremely Positive |
-|--------------------|--------------------|----------|---------|----------|--------------------|
-| Extremely Negative | 1068               | 470      | 8       | 25       | 1                  |
-| Negative           | 206                | 2343     | 134     | 312      | 10                 |
-| Neutral            | 3                  | 121      | 1992    | 171      | 5                  |
-| Positive           | 5                  | 240      | 202     | 2792     | 251                |
-| Extremely Positive | 1                  | 12       | 10      | 422      | 1544   
-
+    |                     | Extremely Negative  |  Negative | Neutral | Positive |  Extremely Positive | 
+    | :------------ |:---------------:| -----:|:------------ |:---------------:| -----:|
+    | Extrememly  Negative | 1068 | 470  | 8    | 25   | 1   |
+    | Negative             | 206  | 2343 | 134  | 312  | 10  |
+    | Neutral              | 3    |  121 | 1992 | 171  | 5   |
+    | Positive             | 5    |  240 | 202  | 2792 | 251 |
+    | Extremely Positive   | 1    |  12  | 10   | 422  | 1544|
 
 ## Reference
+
