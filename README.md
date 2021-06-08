@@ -41,14 +41,15 @@ The model will classify the text which is relative to Covid-19.
 
 
 
-- **data strucutre** - **Twitter text data with label** <br/>
+- **data strucutre** <br/>
 
 <div align="center">
 
 <table>
   
+Twitter text data with label <br />
 
-
+knitr::kable(top_gap,caption = "The first 6 rows of the dataset, gapminder")
   
 ||  OriginalTweet  |  Sentiment  |
 |----| ---- | ---- |
@@ -61,22 +62,30 @@ The model will classify the text which is relative to Covid-19.
 
 </div>
   
-  
-- **what is path analysis** <br/>
-  path analysis is pretty old theory , about 100 years ago, 
-
-- **what is hill climbing algorithm** <br/> 
-
-
 
 ## Technologies
 
 Project is created with:
 
-- r 4.0.1
+- Python 3.8.4
+- RNN_LSTM
+- pytorch
+- fastai 
 
-## CodeExamples
+## Project table
+
+- #### set up firstai
+- #### clearning data
+    - ###### convert & to and 
+    - ###### Remove Unicode Characters 
+    - ###### how to deal with #texts
+
+- #### traiing the model
+- 
+## result
+
 
 
 
 ## Reference
+
