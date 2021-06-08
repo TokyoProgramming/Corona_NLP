@@ -34,20 +34,20 @@ classifier.predict('Our life style has been changed a lot due to the covid-19')
 ```
 
 
-Those results seems correct !!
+Those results seems correct !! <br />
+The model will classify the text which is relative to Covid-19.
 
 
 
 
 
-- **what is dag** <br/>
-  DAG is part of the graph theory and is a directed graph with no directed cycles. 
-  dag sample is down below.<br />
+- **data strucutre** <br/>
+
 <div align="center">
 
 <table>
   
-camera questionnaire data 
+Twitter text data with label
 knitr::kable(top_gap,
              caption = "The first 6 rows of the dataset, gapminder")
   
